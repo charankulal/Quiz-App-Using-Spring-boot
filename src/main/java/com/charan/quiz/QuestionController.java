@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class QuestionController {
     @GetMapping("allQuestions")
     public String getAllQuestions(){
-        return "Hi there are questions";
+
+        return "Hi Here is all quiz questions";
     }
 }
