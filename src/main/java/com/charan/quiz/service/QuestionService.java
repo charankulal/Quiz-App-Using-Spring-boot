@@ -1,6 +1,6 @@
 package com.charan.quiz.service;
 
-import com.charan.quiz.Question;
+import com.charan.quiz.model.Question;
 import com.charan.quiz.dao.QuestionDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
