@@ -24,8 +24,7 @@ public class QuizService {
         Quiz quiz= new Quiz();
         quiz.setTitle(title);
         quiz.setQuestions(questions);
-        quizDao.save(quiz);
-
+        quizDao.saveAndFlush(quiz);
         return new ResponseEntity<>("success", HttpStatus.CREATED);
     }
 }
